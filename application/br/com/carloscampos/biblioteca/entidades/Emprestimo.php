@@ -2,63 +2,60 @@
 namespace br\com\carloscampos\biblioteca\entidades
 {
 
-	class Livro {
+	class Emprestimo {
 		private $id;
-		private $titulo;
-		private $ano;
-		private $edicao;
-		private $paginas;
-		private $quantidade;
-		private $editora;
-		private $autor;
-
-		public function setId(){
+		private  $data;
+		private $dataDevolucao;
+		private $multa;
+		private $usuario;
+		private $livros;
+		
+			public function setId(){
 			$this->id = $id;}
 
-			public function setTitulo(){
-				$this->titulo = $titulo;}
+			public function getId(){
+				return $this->id = $id;}
+			
+			
+				public function setData(){
+			$this->data = $data;}
 
-				public function getId(){
-					return $this->id = $id;
-				}
+			public function getData(){
+			$this->data = $data;}
+			
+			
+				public function setDataDevolucao(){
+			$this->datadevolucao = $datadevolucao;}
 
-				public function getTitulo(){
-					return $this->titulo = $titulo;
-				}
-				public function setAno(){
-					$this->ano = $ano;}
+			public function getDataDevolucao(){
+				return $this->datadevolucao = $datadevolucao;
+			}
+			
+				public function setMulta(){
+			$this->multa = $multa;}
 
-					public function getAno(){
-						return $this->ano = $ano;
-					}
+			public function getMulta(){
+				return $this->multa = $multa;
+			}
+			
+		public function setUsuario(){
+			$this->usuario = $usuario;}
 
-					public function setEdicao(){
-						$this->edicao = $edicao;}
+			public function getUsuario(){
+				return $this->usuario = $usuario;
+			}
+	public function setBibliotecario(){
+			$this->bibliotecario = $blibiotecario;}
 
-						public function getEdicao(){
-							return $this->edicao = $edicao;
-						}
-	
-			public function setQuantidade(){
-			$this->quantidade = $quantidade;}
+			public function getUsuario(){
+				return $this->bibliotecario = $blibiotecario;
+			}
+	public function setLivros(){
+			$this->livros = $livros;}
 
-			public function getQuantidade(){
-				return $this->quantidade = $quantidade;
-			}		
-							
-				public function setEditora(){
-			$this->editora = $editora;}
-
-			public function getEditora(){
-				return $this->editora = $editora;
-			}		
-
-				public function setAutor(){
-			$this->autor = $autor;}
-
-			public function getAutor(){
-				return $this->autor = $autor;
-			}		
-							
+			public function getLivros(){
+				return $this->livros= $livros;
+			}
+		
 	}
 }

@@ -2,7 +2,7 @@
 namespace br\com\carloscampos\biblioteca\entidades
 {
 
-	abstract class Pessoa {
+	abstract class Prateleira {
 		private $id;
 		private $posicao;
 

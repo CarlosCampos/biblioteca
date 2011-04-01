@@ -2,7 +2,7 @@
 namespace br\com\carloscampos\biblioteca\entidades
 {
 
-	class Biblioteca extends Pessoa {
+	class Autor extends Pessoa {
 		
 
 		

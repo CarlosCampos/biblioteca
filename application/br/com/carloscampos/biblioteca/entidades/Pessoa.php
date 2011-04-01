@@ -6,17 +6,17 @@ namespace br\com\carloscampos\biblioteca\entidades
 		private $id;
 		private $nome;
 
-		public function setId(){
+		public function setId($id){
 			$this->id = $id;}
 
-			public function setNome(){$this->nome = $nome;}
+			public function setNome($nome){$this->nome = $nome;}
 
 			public function getId(){
-				return $this->id = $id;
+				return $this->id;
 			}
 
 			public function getNome(){
-				return $this->nome = $nome;
+				return $this->nome;
 			}
 	}
 }
